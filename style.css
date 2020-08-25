@@ -13,11 +13,11 @@ p {
   padding: 10px 0;
 }
 
-#top,
+#profile,
 #skill,
 #work,
 #contact {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 #footer {
@@ -31,4 +31,8 @@ p {
 
 .contents-container {
   margin-top: 40px;
+}
+
+.icon-container {
+  margin-top: 10px;
 }
