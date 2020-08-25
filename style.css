@@ -6,6 +6,9 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+#footer {
+  padding: 30px 0;
+}
 
 /* skill */
 .list-item {
