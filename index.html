@@ -18,101 +18,74 @@
     <title>portfolio</title>
   </head>
   <body>
-    <!-- header -->
-    <div class="ui inverted large borderless fixed fluid menu column">
-      <a class="header item" href="/">Qiita</a>
-      <div class="right menu">
-        <div class="ui dropdown item">
-          <div class="header">
-            <h4>MENU</h4>
+    <!-- header-menu -->
+    <div class="ui menu header-menu">
+      <!-- ドロップダウンメニュー -->
+      <div class="ui right dropdown item">
+        more
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item">プロフィール</div>
+          <div class="item">スキル</div>
+          <div class="item">制作実績</div>
+          <div class="item">お問い合わせ</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- main -->
+    <!-- profile -->
+    <div class="ui vertical stripe segment">
+      <div id="top" class="ui center aligned container">
+        <h1 class="ui header">Profile</h1>
+        <div class="ui two column very grid">
+          <div class="column center aligned">
+            <img class="ui medium circular image" src="/images/sample.jpeg" />
           </div>
-          <i class="share square icon"></i>
-          <div class="menu">
-            <div class="item">
-              <small>
-                <i class="th icon"></i>
-                記事を書く
-              </small>
-            </div>
-            <div class="item">
-              <small>
-                <i class="clipboard outline icon"></i>
-                USER NAME
-              </small>
-            </div>
+          <div class="column left aligned">
+            <table class="ui celled table">
+              <tbody>
+                <tr>
+                  <td>名前</td>
+                  <td>原田　大資</td>
+                </tr>
+                <tr>
+                  <td>年齢</td>
+                  <td>28</td>
+                </tr>
+                <tr>
+                  <td>学歴</td>
+                  <td>修士卒</td>
+                </tr>
+                <tr>
+                  <td>現職</td>
+                  <td>
+                    製薬会社の研究員。学生時代に学んだ有機合成化学を活かし、医薬品のプロセス研究を行なっている。
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
     </div>
 
-    <h4 class="ui red header">Red</h4>
-    <h4 class="ui orange header">Orange</h4>
-    <h4 class="ui yellow header">Yellow</h4>
-    <h4 class="ui olive header">Olive</h4>
-    <h4 class="ui green header">Green</h4>
-    <h4 class="ui teal header">Teal</h4>
-    <h4 class="ui blue header">Blue</h4>
-    <h4 class="ui purple header">Purple</h4>
-    <h4 class="ui violet header">Violet</h4>
-    <h4 class="ui pink header">Pink</h4>
-    <h4 class="ui brown header">Brown</h4>
-    <h4 class="ui grey header">Grey</h4>
-    <!-- main -->
-    <div class="ui secondary pointing menu">
-      <a class="active item">
-        Home
-      </a>
-      <a class="item">
-        Messages
-      </a>
-      <a class="item">
-        Friends
-      </a>
-      <div class="right menu">
-        <a class="ui item">
-          Logout
-        </a>
-      </div>
-    </div>
-    <div class="ui right aligned segment">
-      <p class="ui red inverted">fdsfsfsda</p>
-    </div>
-
-    <button class="ui red button">Red</button>
-
-    <div class="ui equal width center aligned padded grid">
-      <div class="ui center aligned" style="margin-top: 4em;">
-        <div class="ui mini red label">Red</div>
-        <div class="ui tiny orange label">Orange</div>
-        <div class="ui small yellow label">Yellow</div>
-        <div class="ui olive label">Olive</div>
-        <div class="ui large green label">Green</div>
-        <div class="ui big teal label">Teal</div>
-        <div class="ui huge blue label">Blue</div>
-        <div class="ui massive violet label">Violet</div>
+    <!-- skill -->
+    <div class="ui vertical stripe segment">
+      <div id="skill" class="ui center aligned container">
+        <h1 class="ui header">skills</h1>
       </div>
     </div>
 
-    <div class="ui inverted segment">
-      <h4 class="ui red inverted header">Red</h4>
-      <h4 class="ui orange inverted header">Orange</h4>
-      <h4 class="ui yellow inverted header">Yellow</h4>
-      <h4 class="ui olive inverted header">Olive</h4>
-
-      <h4 class="ui brown inverted header">Brown</h4>
-      <h4 class="ui grey inverted header">Grey</h4>
+    <!-- work -->
+    <div class="ui vertical stripe segment">
+      <div id="work" class="ui center aligned container">
+        <h1 class="ui header">works</h1>
+      </div>
     </div>
-
-    <div class="ui grid">
-      <div class="twelve wide column"><p>Lorem Ipsum(略)</p></div>
-      <div class="four wide column"><p>Lorem Ipsum(略)</p></div>
-    </div>
-
-    <i class="user icon"></i>
 
     <!-- footer -->
-    <div></div>
-    <button class="ui button">Button</button>
+
     <!-- jsファイル読み込み -->
     <script src="main.js"></script>
   </body>
