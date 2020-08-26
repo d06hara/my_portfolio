@@ -10,7 +10,7 @@ $(function () {
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? "html" : href);
     // console.log("aaa");
-    var position = target.offset().top - header_height - 20;
+    var position = target.offset().top - header_height - 40;
     $("body,html").animate({ scrollTop: position }, speed, "swing");
     return false;
   });
