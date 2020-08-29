@@ -8,7 +8,7 @@ p {
   margin: 0;
 }
 
-/* margin */
+/* margin,padding */
 #header-menu {
   padding: 15px 0;
 }
@@ -33,13 +33,23 @@ p {
 }
 .top-header {
   font-size: 52px;
-  /* width: 50%; */
-  /* max-width: 50%; */
-  /* text-align: center; */
-  display: inline-block;
-  /* margin: 0 auto; */
-  /* vertical-align: middle; */
+  text-align: center;
+  margin-bottom: 30px;
 }
+/* .top-icon {
+  font-size: 40px;
+  text-align: center;
+} */
+.sub-header {
+  font-size: 28px;
+  text-align: center;
+}
+
+/* works */
+/* .image {
+  width: 400px;
+  height: 400px;
+} */
 
 /* skill */
 .list-item {
