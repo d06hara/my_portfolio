@@ -1,5 +1,3 @@
-$(".dropdown").dropdown();
-
 // ヘッダーの高さ分bodyを下げる
 $(function () {
   var header_height = $("#header-menu").height();
