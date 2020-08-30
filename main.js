@@ -3,7 +3,7 @@ $(".dropdown").dropdown();
 // ヘッダーの高さ分bodyを下げる
 $(function () {
   var header_height = $("#header-menu").height();
-  $("body").css("margin-top", header_height + 10);
+  $("main").css("margin-top", header_height + 10);
 
   $("a[href]").click(function () {
     var speed = 1000;

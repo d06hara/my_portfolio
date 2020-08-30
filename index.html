@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- header-menu -->
-    <div id="header-menu" class="ui fixed menu header-menu">
+    <div id="header-menu" class="ui stackable fixed menu header-menu">
       <div class="ui container">
         <h1 class="top-title">Daisuke`s Portfolio</h1>
         <div class="ui right secondary menu">
@@ -30,159 +30,164 @@
         </div>
       </div>
     </div>
-
-    <!-- top -->
-    <div class="ui verticalsegment">
-      <div id="top">
-        <div class="top-container">
-          <h1 class="top-header">Portfolio</h1>
-          <!-- <p class="top-icon"><i class="desktop icon"></i></p> -->
-          <h2 class="sub-header">Web Engineer</h2>
-        </div>
-      </div>
-    </div>
-
-    <!-- profile -->
-    <div class="ui vertical stripe segment">
-      <div id="profile" class="ui center aligned container">
-        <h1 class="ui header">Profile</h1>
-        <div class="contents-container">
-          <div class="ui stackable two column very grid container">
-            <div class="six wide column center aligned">
-              <img
-                class="ui medium centered circular image"
-                src="/images/IMG_0350.PNG"
-              />
-            </div>
-            <div class="ten wide column left aligned">
-              <table class="ui celled padded table">
-                <tbody>
-                  <tr>
-                    <td class="single line">名前</td>
-                    <td>Daisuke Harada</td>
-                  </tr>
-                  <tr>
-                    <td>年齢</td>
-                    <td>28</td>
-                  </tr>
-                  <tr>
-                    <td>学歴</td>
-                    <td>修士卒</td>
-                  </tr>
-                  <tr>
-                    <td>現職</td>
-                    <td>
-                      製薬会社の研究員。学生時代に学んだ有機合成化学を活かし、医薬品のプロセス研究を行なっている。より安く大量に高品質な薬を製造するにはそうすれば良いかを日々考えている。
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>GitHub</td>
-                    <td>
-                      <a
-                        href="https://github.com/d06hara"
-                        target="_blank"
-                        rel="noopener noreferre"
-                      >
-                        https://github.com/d06hara
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>twitter</td>
-                    <td>
-                      xxxxxxx
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+    <main>
+      <!-- top -->
+      <div class="ui vertical">
+        <div id="top">
+          <div class="top-container">
+            <h1 class="top-header">Portfolio</h1>
+            <!-- <p class="top-icon"><i class="desktop icon"></i></p> -->
+            <h2 class="sub-header">Web Engineer</h2>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- skill -->
-    <div class="ui vertical stripe segment">
-      <div id="skill" class="ui container">
-        <h1 class="ui header center aligned section-header">Skill</h1>
-        <div class="contents-container">
-          <div class="ui large bulleted list">
-            <div class="item list-item">
-              <div class="header">言語</div>
-              HTML. CSS(SCSS), JavaScript, PHP, SQL, Git
-            </div>
-            <div class="item list-item">
-              <div class="header">フレームワーク、ライブラリ</div>
-              Laravel, vue.js, jQuery
-            </div>
-            <div class="item list-item">
-              <div class="header">その他</div>
-              MySQL, vagrant, VirtualBox, Docker, heroku, wordpress
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- works -->
-    <div class="ui vertical stripe segment">
-      <div id="works" class="ui center aligned container">
-        <h1 class="ui header section-header">Works</h1>
-        <div class="contents-container">
-          <div class="ui stackable two column centered grid">
-            <div class="column">
-              <div class="ui centered card container">
-                <a class="image">
-                  <img src="/images/portfolio_screen.png" alt="" />
-                </a>
-                <div class="content">
-                  <a class="header">Portfolio</a>
-                  <div class="description">
-                    本サイト
-                  </div>
-                </div>
-                <div class="extra content">
-                  HTML, CSS(Sementic UI)
-                </div>
+      <!-- profile -->
+      <div class="ui vertical stripe segment">
+        <div id="profile" class="ui center aligned container">
+          <h1 class="ui header">Profile</h1>
+          <div class="contents-container">
+            <div class="ui stackable two column very grid container">
+              <div class="six wide column center aligned">
+                <img
+                  class="ui medium centered circular image"
+                  src="/images/IMG_0350.PNG"
+                />
               </div>
-            </div>
-            <div class="column">
-              <div class="ui centered card container">
-                <a class="image">
-                  <img src="/images/crypto-trend_screen.png" alt="" />
-                </a>
-                <div class="content">
-                  <a class="header">crypto trend</a>
-                  <div class="description">
-                    TwitterAPIを使用した情報蒐集サービス
-                  </div>
-                </div>
-                <div class="extra content">
-                  HTML, CSS(SCSS), laravel, vue.js, MySQL, vagrant, VirtualBox,
-                  heroku
-                </div>
+              <div class="ten wide column left aligned">
+                <table class="ui celled padded table">
+                  <tbody>
+                    <tr>
+                      <td class="single line">名前</td>
+                      <td>Daisuke Harada</td>
+                    </tr>
+                    <tr>
+                      <td>年齢</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>学歴</td>
+                      <td>修士卒</td>
+                    </tr>
+                    <tr>
+                      <td>現職</td>
+                      <td>
+                        製薬会社の研究員。学生時代に学んだ有機合成化学を活かし、医薬品のプロセス研究を行なっている。
+                        <br />・より品質の良い薬を作るにはどうすれば良いか
+                        <br />・より安く薬を作るにはどうすれば良いか
+                        <br />・より大量に薬を作るにはどうるれば良いか
+                        <br />などを考えがら、日々実験室で研究をしている。
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>GitHub</td>
+                      <td>
+                        <a
+                          href="https://github.com/d06hara"
+                          target="_blank"
+                          rel="noopener noreferre"
+                        >
+                          https://github.com/d06hara
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>twitter</td>
+                      <td>
+                        xxxxxxx
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- contact -->
-    <div class="ui vertical stripe segment">
-      <div id="contact" class="ui center aligned container">
-        <div class="ui huge header section-header">Contact</div>
-        <h2 class="ui sub header">
-          お問い合わせはtwitterのDMからお願いします。
-        </h2>
-        <div class="icon-container">
-          <a href="">
-            <i class="large twitter icon"></i>
-            click here
-          </a>
+      <!-- skill -->
+      <div class="ui vertical stripe segment">
+        <div id="skill" class="ui container">
+          <h1 class="ui header center aligned section-header">Skill</h1>
+          <div class="contents-container">
+            <div class="ui large bulleted list">
+              <div class="item list-item">
+                <div class="header">言語</div>
+                HTML. CSS(SCSS), JavaScript, PHP, SQL, Git
+              </div>
+              <div class="item list-item">
+                <div class="header">フレームワーク、ライブラリ</div>
+                Laravel, vue.js, jQuery
+              </div>
+              <div class="item list-item">
+                <div class="header">その他</div>
+                MySQL, vagrant, VirtualBox, Docker, heroku, wordpress
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+
+      <!-- works -->
+      <div class="ui vertical stripe segment">
+        <div id="works" class="ui center aligned container">
+          <h1 class="ui header section-header">Works</h1>
+          <div class="contents-container">
+            <div class="ui stackable two column centered grid">
+              <div class="column">
+                <div class="ui centered card container">
+                  <a class="image">
+                    <img src="/images/portfolio_screen.png" alt="" />
+                  </a>
+                  <div class="content">
+                    <a class="header">Portfolio</a>
+                    <div class="description">
+                      本サイト
+                    </div>
+                  </div>
+                  <div class="extra content">
+                    HTML, CSS(Sementic UI)
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="ui centered card container">
+                  <a class="image">
+                    <img src="/images/crypto-trend_screen.png" alt="" />
+                  </a>
+                  <div class="content">
+                    <a class="header">crypto trend</a>
+                    <div class="description">
+                      TwitterAPIを使用した情報蒐集サービス
+                    </div>
+                  </div>
+                  <div class="extra content">
+                    HTML, CSS(SCSS), laravel, vue.js, MySQL, vagrant,
+                    VirtualBox, heroku
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact -->
+      <div class="ui vertical stripe segment">
+        <div id="contact" class="ui center aligned container">
+          <div class="ui huge header section-header">Contact</div>
+          <h2 class="ui sub header">
+            お問い合わせはtwitterのDMからお願いします。
+          </h2>
+          <div class="icon-container">
+            <a href="">
+              <i class="large twitter icon"></i>
+              click here
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!-- footer -->
     <div>
